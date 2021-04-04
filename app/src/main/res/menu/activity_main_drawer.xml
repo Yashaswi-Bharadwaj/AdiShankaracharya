@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_details"
+            android:icon="@drawable/ic_details"
+            android:title="@string/drawer_details" />
+        <item
+            android:id="@+id/nav_japa_counter"
+            android:icon="@drawable/ic_count"
+            android:title="@string/drawer_counter" />
+        <item
+            android:id="@+id/nav_website"
+            android:icon="@drawable/ic_update"
+            android:title="Check Website" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_phone"
+            android:title="Contat Us" />
+    </group>
+
+    <!--<item android:title="My total COUNT">
+        <menu>
+            <item
+                android:id="@+id/nav_count"
+                android:icon="@drawable/ic_menu_send"
+                android:title="500" />
+        </menu>
+    </item>-->
+
+</menu>

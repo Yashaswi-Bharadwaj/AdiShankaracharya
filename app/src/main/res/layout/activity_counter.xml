@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/background_image"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_latest_count"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_below="@id/btn_counter"
+        android:textStyle="italic"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/texts_size" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_japa_title"
+        android:text="@string/text_counter"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_above="@id/et_counter"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/texts_size" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_counter"
+        android:hint="@string/hint_counter"
+        android:inputType="number"
+        android:drawableStart="@drawable/ic_count"
+        android:layout_centerInParent="true"
+        android:drawablePadding="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:textColorHint="@android:color/black" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_counter"
+        android:text="@string/button_counter"
+        android:layout_below="@id/et_counter"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:background="@drawable/oval_button" />
+
+</RelativeLayout>

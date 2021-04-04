@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Adi Shankaracharya Japa</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Navigation Drawer strings -->
+    <string name="nav_header_title">\"Sri Shankaracharya Sadgurave Namaha\"</string>
+    <string name="nav_header_subtitle">Sri Shankara nama japa yagna</string>
+    <string name="drawer_details">My Details</string>
+    <string name="drawer_counter">Update Count</string>
+
+    <!-- Offline dialog strings -->
+    <string name="offline_title">No Internet available</string>
+    <string name="offline_msg">Please make sure that Internet is available, to use the app.
+        Please connect to internet (either through <b>Wifi</b> or <b>Mobile data</b>), to continue using the app.</string>
+    <string name="offline_button">Ok</string>
+
+    <!-- Intro message on the opening screen -->
+    <string name="intro_message">\"Sri Shankara Nama Japa Yagna\" is the ardent desire of
+        <u>Shri Binddu Madhava Avadhootha Sadguru</u> of Shree kshetra, Belaguru, to perform a
+        <b>Shathakoti Shree Shankara Nama Japa Yagna</b> as per the mandate of parama pujya
+        <u>\"Shri Shri Shri Bharathi Teertha Mahaswamiji\"</u> and <u>\"Shri Shri Shri Vidhushekara
+        Bharathi Teertha Mahaswamiji\"</u> at a time when society around us is disintegrating as a
+        result of unbridled collapse of all values, social, culturual, political and moral.
+        \n\n
+        Hence we humbly request everyone (irrespecitve of caste, creed, gender, age, and so on) to
+        participate in this sacred japa yagna by chanting <b>SRI SHANKARACHARYA SADGURAVE NAMAHA</b>
+        daily and make it a grand success.
+        \n\n
+        We request everyone, to notify your count to us, through <u>UPDATE COUNT</u> section or
+        <i>bottom-right</i> button, given in the app. Please provide your personal details (once)
+        using <i><u>MY DETAILS</u></i> section and keep visiting the <i><u>CHECK WEBSITE</u></i> section for
+        continuous updates.</string>
+
+
+    <!-- My details screen strings -->
+    <string name="text_title">Enter your details</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_phone">Phone number</string>
+    <string name="hint_nakshatra">Star (Nakshatra)</string>
+    <string name="hint_rashi">Heap (Rashi)</string>
+    <string name="hint_gothra">Tribe (Gothra)</string>
+    <string name="button_details">send details</string>
+
+    <!-- Counter screen strings -->
+    <string name="text_counter">Enter your latest JAPA count</string>
+    <string name="hint_counter">JAPA count</string>
+    <string name="button_counter">update count</string>
+</resources>
